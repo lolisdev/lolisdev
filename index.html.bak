@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Luis Carlos - Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+ 
+<body>
+
+
+    <header>
+        <div style="display: flex;">
+            <div id="logo">
+                <img src="public/logo.png" class="rounded-circle img-fluid" alt="LC" srcset="">
+            </div>
+            <div id="menu">
+                <a href="#">Home</a>
+                <a href="#">Formação</a>
+                <a href="#">Projetos</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <!-- <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="public/logo.png" alt="LC"> LC
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">Formação</a>
+                        <a class="nav-item nav-link" id="projects-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+    </main> -->
+
+
+
+    <!-- <div class="container-fluid" style="background-color: grey;">
+        <div class="row" style="background-color: blue;">
+            <div class="col-3 bg-dark">
+                <p>
+                </p>
+            </div>
+            <div class="col-9 btn-group bg-dark" style="background-color: grey; padding: 30px; text-align: center;">
+                <nav class="navbar">
+                    <a class="btn btn-outline-success btn-lg btn-block" href="#home">Quem sou eu</a>
+                    <a class="btn btn-outline-warning btn-lg btn-block" href="#formacao">Formação</a>
+                    <a class="btn btn-outline-info btn-lg btn-block" href="#projetos">Projetos</a>
+                    <a class="btn btn-outline-warning btn-lg btn-block" href="#contato">Contato</a>
+                </nav>
+            </div>
+        </div> -->
+
+        <!-- HOME -/->
+
+        <div data-aos="fade-in" class="row" id ="home">
+            <div align="center" class="col-8" style="background-color: green;">
+                <p><h1>Hello World!</h1>
+                    Eu sou o <big><strong>Luis Carlos</strong></big>, lorem ipsum lorem ipsum lorem ipsum
+                </p>
+            </div>
+
+            <div class="col-4" style="background-color: green;">
+                <img src="public/perfil1.png">
+            </div>
+        </div>
+
+        <!-- FORMAÇÃO -/->
+
+        <div data-aos="fade-in" class="row" id="formacao">
+            <div class="col-4" style="background-color: skyblue;">
+                <p><img src="public/perfil2.jpg" class="rounded-circle img-fluid" width="70%"></p>
+            </div>
+            <div class="col-8" style="background-color: skyblue;">
+                <p>FORMAÇÃO</p>
+            </div>
+        </div>
+        
+        <!-- PROJETOS -/->
+
+        <div data-aos="fade-in" class="row" id="projetos">
+            <div class="col" style="background-color: purple;">
+                <p>PROJETOS</p>
+            </div>
+        </div>
+
+        <!-- CONTATO -/->
+        <div data-aos="fade-in" class="row" id="contato">
+
+            <div class="col" style="background-color: orange;">
+                <p>CONTATO</p>
+                <div class="form-group">
+                    <input type="text" name="nome" placeholder="Insira seu nome" class="form-control">
+                    <input type="text" name="e-mail" placeholder="Insira seu e-mail" class="form-control">
+                    <input type="text" name="mensagem" placeholder="Digite sua mensagem" class="form-control">
+                    <input type="submit" class="btn-info" name="enviar" value="ENVIAR" >
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+
+    <footer>
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </footer>
+    <!-- Efeito fade in -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+ 
+</html>
