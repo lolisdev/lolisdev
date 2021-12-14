@@ -5,46 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://picsum.photos/280/280?random=01" type="image/x-icon">
+
+    <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="jquery.js"></script>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-    <style lang="css">
-        body {
-            font-family: 'Poppins';
-        }
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
     </style>
 </head>
 <body>
-    <div></div>
-    <div style="background-color: rgb(39, 39, 39);">
-        <div class="container" style="display: flex; ">
-            <div class="row">
-                <div class="col d-flex">
-                    <img src="https://picsum.photos/280/280?random=01" alt="Logo" style="width: 100px; height: 100px; object-fit: cover; border-radius: 100%;"/>
-                    <p class="text-white" style="margin: 40px 0px 0 30px;">luis carlos</p>
-                </div>
-                <div class="col">
-                    <nav style="padding: 30px;" class="d-flex">
-                        <button id="btnquemsoueu" type="button" class="btn btn-outline-light">Quem sou eu</button>
-                        <button id="btnformacao" type="button" class="btn btn-outline-light">Formação</button>
-                        <button id="btnprojetos" type="button" class="btn btn-outline-light">Projetos</button>
-                        <button id="btncontato" type="button" class="btn btn-outline-light">Contato</button>
-                    </nav>
-                </div>
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar" style="background-color: rgb(39, 39, 39);">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand">
+                <img src="https://picsum.photos/280/280?random=01" alt="Logo" style="width: 70px; height: 70px; object-fit: cover; border-radius: 100%;"/>
+                <span>Luis Carlos</span>
+            </a>
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-items"
+            aria-controls="navbar-items"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi bi-list text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="list-style-type: none;"></ul>
+                <li class="nav-item d-flex">
+                    <a href="#quemsoueu" class="nav-link active text-white" aria-current="page">Quem sou eu</a>
+                    <a href="#formacao" class="nav-link active text-white">Formação</a>
+                    <a href="#projetos" class="nav-link active text-white">Projetos</a>
+                    <a href="#contato" class="nav-link active text-white">Contato</a>
+                </li>
             </div>
         </div>
-    </div>
+    </nav>
+
     <div style="background-color: rgb(39, 39, 39);">
         <div class="container">
-            <div id="quemsoueu" style="height: 800px; width: 100%; display: flex; background-color: rgb(39, 39, 39);">
+            <div id="quemsoueu" style="height: 800px; width: 100%; display: flex; background-color: rgb(39, 39, 39); padding-top: 120px;">
                 <div class="col-6">
-                    <p class="text-white" style="margin-top: 300px; padding: 50px; text-shadow: 1px 1px 1px #111111;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia autem neque consectetur molestiae deserunt hic, tempora aliquid eligendi, accusamus in, veniam doloribus. Unde fuga ad consequatur similique necessitatibus quo labore?</p>
+                    <h1 class="text-center" style="margin-top: 100px;"><span class="text-danger">WEB</span> <span class="text-white">DEVELOPER</span></h1>
+                    <p class="text-white" style="margin-top: 100px; padding: 50px; text-shadow: 1px 1px 1px #111111; text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia autem neque consectetur molestiae deserunt hic, tempora aliquid eligendi, accusamus in, veniam doloribus. Unde fuga ad consequatur similique necessitatibus quo labore?</p>
                 </div>
                 <div class="col-6">
                     <img src="public/perfil1.png" style="height: 700px;">
@@ -103,7 +117,7 @@
             <div id="contato" class="row" style="min-height: 800px; width: 100%; display: flex; background-color: rgb(39, 39, 39);">
                 <div class="row">
                     <div class="col">
-                        <p style="text-align: center; padding: 400px 0 0 0; text-shadow: 1px 1px 1px #111111;">
+                        <p class="text-white" style="text-align: center; padding: 400px 0 0 0; text-shadow: 1px 1px 1px #111111;">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas ipsam dolorem eos maiores fugit. Veritatis expedita debitis, nam nesciunt libero consequuntur aspernatur minima soluta voluptates tempore sequi, incidunt tempora animi.
                         </p>
                     </div>
@@ -124,96 +138,6 @@
             </div>
         </div>
     </div>
-    <!--<header style="background-color: darkslateblue; position: fixed; width: 100%;">
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="https://picsum.photos/280/280?random=01" alt="Logo" style="width: 100px; height: 100px; object-fit: cover; border-radius: 100%;"/>
-                </div>
-                <div class="col-10">
-                    <div style="padding: 40px; display: flex; justify-content: space-evenly;">
-                        <button type="button" class="btn btn-outline-light">Quem sou eu</button>
-                        <button type="button" class="btn btn-outline-light">Formação</button>
-                        <button type="button" id="blog" class="btn btn-outline-light">Projetos</button>
-                        <button type="button" id="contato" class="btn btn-outline-light">Contato</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div style="background-color: darkslateblue; min-height: 600px; padding: 100px;">
-        <div class="container">
-            <div class="row">
-                <div class="col" style="padding: 50px 80px;">
-                    <p"><h1 style="text-shadow: 5px 1px 1px #111111; font-weight: 100;"><strong><span style="color:orangered">WEB</span><span class="text-white"> DEVELOPER</span></strong></h1></p>
-                    <p class="text-white" style="text-align: justify; text-shadow: 1px 1px 1px #111111;";>Olá mundo! Me chamo Luís...
-                    </p>
-                    <div style="display: flex; justify-content: space-between;">    
-                        <button style="border-style: groove; border-radius: 10px; padding: 10px; display: flex;">
-                            <i class="fab fa-google-play" style="font-size: 48px"></i>
-                            <div tyle="padding-left: 5px;">
-                                Disponível na </br><strong>Play Store</strong>.
-                            </div>
-                        </button>
-                        <button style="border-style: groove; border-radius: 10px; padding: 10px; display: flex;">
-                            <i class="fab fa-app-store-ios" style="font-size: 48px;"></i>
-                            <div style="padding-left: 5px;">
-                                Disponível na </br><strong>App Store</strong>.
-                            </div>
-                        </button>
-                    </div>
-                </div>
-                <div class="col">
-                    <img src="public/perfil1.png" alt="Foto" style="width: 450px; object-fit: cover; padding: 35px 0 0 0; border-radius: 10%"/>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
-
-    <div class="cards" style="background-color: darkslateblue;">
-        <div class="container" style="margin-top: 0px;">
-            <div class="row justify-content-evenly">
-                <div class="col-3">
-                    <div class="card w-100">
-                        <img src="https://picsum.photos/280/280?random=01" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card w-100">
-                        <img src="https://picsum.photos/280/280?random=01" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card w-100">
-                        <img src="https://picsum.photos/280/280?random=01" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div style="padding-top: 60px; background-color: darkslateblue; min-height: 600px;">
-        <div class="container">
-            <h2 id="gancho" class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quidem consequuntur sapiente, labore cupiditate minus. Corrupti vel fuga in eaque modi aperiam, cumque incidunt rerum quam eos. Aliquam, voluptas corporis.</h2>
-        </div>
-    </div> -->
 </body>
 
 <footer>
