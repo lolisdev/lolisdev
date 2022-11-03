@@ -1,0 +1,107 @@
+/* CSS */
+
+body, nav {
+    font-family: 'Poppins';
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+#projetos {
+    color: rgb(39, 39, 39);
+}
+
+.item-lista {
+    border: 3px solid green;
+    padding: 0px;
+}
+
+.col#col-puc {
+    align-items: center;
+}
+
+.col {
+    border: 2px solid orange;
+}
+
+#quemsoueu, #formacao, #projetos, #contato {
+    height: 100vh;
+    /*align-items: center;*/
+    border: 3px solid red;
+    margin-top: 86px;
+    padding-top: 80px;
+}
+
+.montserrat{
+    font-family: 'Montserrat';
+}
+
+.nav-item{
+    display: flex;
+}
+
+.nav-item a{
+    display: flex;
+    justify-content: center;
+}
+
+.imgcinza{
+    filter:grayscale(1);
+}
+
+.logo {
+    width: 100px;
+}
+
+#puc-logo {
+    margin-right: 18px;
+}
+
+#unopar-logo {
+    width: 140px;
+}
+
+#desc-logo {
+    width: 120px;
+    margin-right: 10px;
+}
+
+#col-unopar {
+    margin: auto;
+}
+
+#col-puc {
+    padding-left: 24px;
+}
+
+/* SCSS */
+
+@media (max-width: 600px) { /* MOBILE */
+    .nav-item{
+            display: block;
+    }
+
+    .showweb{
+            display: none;
+    }
+}
+@media (min-width: 601px){ /* WEB */
+    .showmobile {
+        display: none;
+    }
+
+    .nav-link:before{ /* EFEITO ABAIXO DOS LINKS */
+        justify-content: center;
+        content: '';
+        position: absolute;
+        height: 6px;
+        bottom: 50px;
+        width: 0px;
+        border-radius: 100%;
+        background: purple;
+        transition: .5s;
+    }
+
+    .nav-link:hover:before{
+        width: 5%;
+    }
+}
