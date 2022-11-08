@@ -8,19 +8,24 @@ body, nav {
 
 #projetos {
     color: rgb(39, 39, 39);
+    height: 100vh;
 }
 
 .item-lista {
     border: 1px solid black;
     margin-bottom: 20px;
-    padding: 0px;
+    padding: 10px;
+}
+
+.item-lista:hover {
+    background-color: rgb(44, 43, 43);
 }
 
 .col#col-puc {
     align-items: center;
 }
 
-#quemsoueu, #formacao, #projetos, #contato {
+#quemsoueu, #formacao, #contato {
     height: 100vh;
     padding-top: 80px;
 }
