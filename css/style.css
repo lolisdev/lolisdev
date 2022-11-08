@@ -74,6 +74,7 @@ body, nav {
 
 .card > img {
     border: 3px solid gray;
+    height: 450px;
 }
 
 /* SCSS */
