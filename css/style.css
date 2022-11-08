@@ -72,6 +72,10 @@ body, nav {
     padding-left: 24px;
 }
 
+.card > img {
+    border: 3px solid gray;
+}
+
 /* SCSS */
 
 @media (max-width: 600px) { /* MOBILE */
