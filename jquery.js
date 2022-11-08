@@ -1,7 +1,6 @@
 $(document).ready(function(){
     $(function(){
         $('#formacao').hide();
-        //$('#quemsoueu').hide();
         $('#projetos').hide();
         $('#contato').hide();
 
