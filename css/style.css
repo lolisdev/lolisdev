@@ -53,19 +53,21 @@ a, a:visited, a:active, a:hover {
 
 .logo {
     width: 100px;
+    height: auto;
+    object-fit: cover;
 }
 
 #puc-logo {
-    margin-right: 18px;
+    margin: auto;
 }
 
 #unopar-logo {
-    width: 140px;
+    width: 110px;
+    margin: auto;
 }
 
 #desc-logo {
-    width: 120px;
-    margin-right: 10px;
+    margin: auto;
 }
 
 #col-unopar {

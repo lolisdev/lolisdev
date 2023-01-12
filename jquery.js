@@ -1,9 +1,8 @@
 $(document).ready(function(){
     $(function(){
         $('#formacao').hide();
-        $('#projetos').show();
+        $('#projetos').hide();
         $('#contato').hide();
-        $('#quemsoueu').hide();
 
         $("#btnquemsoueu").click(function(){
             $('#quemsoueu').fadeIn(2000);
