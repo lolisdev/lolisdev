@@ -1,0 +1,11 @@
+.quemsoueu {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+div>div>p {
+    text-shadow: 1px 1px 1px white;
+}
