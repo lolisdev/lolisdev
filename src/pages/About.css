@@ -1,9 +1,22 @@
 .quemsoueu {
-    background-color: antiquewhite;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+}
+
+.avatar,
+.descricao {
+  height: 300px;
+  width: 300px;
+}
+
+.avatar {
+  background-color: orange;
+}
+
+.descricao {
+  background-color: brown;
 }
 
 div>div>p {

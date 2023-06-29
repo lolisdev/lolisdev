@@ -1,0 +1,37 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.formacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cursos {
+    background-color: coral;
+    display: flex;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lista-cursos {
+    background-color: bisque;
+    width: 90%;
+    height: fit-content;
+  }
+  
+  .curso {
+    width: 100%;
+    background-color: darkcyan;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }  

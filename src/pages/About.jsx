@@ -1,4 +1,5 @@
 import './About.css';
+import Perfil from '../assets/perfil3.jpg'
 
 export default function Curso(props) {
     return (
@@ -12,7 +13,7 @@ export default function Curso(props) {
                         </div>
                         <div className="col-12 showmobile">
                             <p className="text-center pt-3">
-                                {/* <img src="img/perfil3.jpg" className="w-75 rounded-circle p-2 imgcinza" /> */}
+                                <img src={Perfil} alt='Imagem de Perfil' className="w-75 rounded-circle p-2 imgcinza" />
                             </p>
                         </div>
                         <div className="col-12 pt-md-5 pt-4">
@@ -21,8 +22,8 @@ export default function Curso(props) {
                     </div>
                 </div>
 
-                <div className="col align-self-center pt-5 showweb">
-                    {/* <img src="img/perfil3.jpg" className="w-75 rounded-circle p-2 imgcinza m-auto" /> */}
+                <div className="col align-self-center pt-5 showweb mt-5 d-flex justify-content-center">
+                    <img src={Perfil} alt="Imagem de Perfil" className="w-75 rounded-circle imgcinza m-5" />
                 </div>
 
                 <div className="row text-white align-self-end justify-content-center d-flex p-0 m-0">
@@ -36,14 +37,6 @@ export default function Curso(props) {
                         {/* <a href="https://www.linkedin.com/in/luis-carlos-pereira" target="_blank">
                             <i className="fab fa-linkedin"></i>
                         </a> */}
-                    </div>
-                    <div className="col-12">
-                        <hr className="text-white p-auto" />
-                    </div>
-                    <div className="col-12 justify-content-center">
-                        <p className="text-center" >
-                            Copyright 2023 - All rights reserved.
-                        </p>
                     </div>
                 </div>
             </div>
