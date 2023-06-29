@@ -3,6 +3,7 @@ import Discord from '../assets/discord.png'
 import Calc from '../assets/calc.png'
 import Perguntas from '../assets/perguntas.png'
 import Portfolio from '../assets/portfolio.png'
+import Cadastro from '../assets/cadastronext.png'
 import ProjectItem from '../components/ProjectItem'
 
 export default function Projects(props) {
@@ -32,6 +33,10 @@ export default function Projects(props) {
                                 <ProjectItem imagem={Calc} nome='Chatbot WhatsApp'
                                     descricao='Cliente Chatbot WhatsApp multi-função desenvolvido em NodeJS.'
                                     link='wa.me/556299999999' />
+
+                                <ProjectItem imagem={Cadastro} nome='Cadastro Web'
+                                    descricao='Cadastro simples de pessoas utilizando o framework NextJS.'
+                                    link='http://crud-next-flame.vercel.app' />
 
                                 <ProjectItem imagem={Portfolio} nome='Portfolio Profissional'
                                     descricao='Portfólio desenvolvido com HTML, CSS, Jquery e Bootstrap.'
