@@ -4,7 +4,10 @@ html {
   background-color: rgb(39, 39, 39);
 }
 
-a, a:visited, a:active, a:hover {
+a,
+a:visited,
+a:active,
+a:hover {
   color: white;
 }
 
@@ -26,22 +29,22 @@ body {
 
 /* SCSS */
 
-@media (max-width: 600px) { /* MOBILE */
-  .nav-item{
+/* @media (max-width: 600px) { /* MOBILE */
+/* .nav-item{
           display: block;
   }
 
   .showweb{
           display: none;
   }
-}
-@media (min-width: 601px){ /* WEB */
-  .showmobile {
+} */
+/* @media (min-width: 601px){ WEB */
+/* .showmobile {
       display: none;
   }
 
-  .nav-link:before{ /* EFEITO ABAIXO DOS LINKS */
-      justify-content: center;
+  .nav-link:before{ EFEITO ABAIXO DOS LINKS */
+/* justify-content: center;
       content: '';
       position: absolute;
       height: 6px;
@@ -119,5 +122,55 @@ body {
     width: 95%;
     height: 400px;
     margin-top: 30px;
+  }
+} */
+
+@media (max-width: 600px) {
+
+  /* MOBILE */
+
+  .showweb {
+    display: none;
+  }
+
+  header button {
+    display: none!important;
+  }
+
+  .navbar > .container {
+    justify-content: center;
+  }
+
+  div>a i {
+    width: 60px;
+    height: 20px;
+    font-size: 22px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  .showmobile {
+    display: inherit;
+  }
+
+}
+
+@media (min-width: 601px) {
+
+  /* WEB */
+  .showmobile {
+    display: none;
+  }
+
+  div>a i {
+    width: 90px;
+    height: 60px;
+    font-size: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  .showweb {
+    display: flex;
   }
 }
