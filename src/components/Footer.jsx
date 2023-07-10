@@ -1,14 +1,16 @@
+import './Footer.css'
+
 export default function Footer(props) {
     return (
-        <div class="row text-white align-self-end justify-content-center d-flex p-0 m-0">
+        <footer class="row text-white align-self-end justify-content-center d-flex p-0 m-0">
             <div class="col-6 text-end">
-                <a href="http://github.com/lolisdev" target="_blank" rel="noreferrer">
-                    <i class="fab fa-github"></i>
+                <a href="http:github.com/lolisdev" target="_blank" rel="noreferrer">
+                    <i class="social-networking fab fa-github"></i>
                 </a>
             </div>
             <div class="col-6 text-start">
-                <a href="https://www.linkedin.com/in/luis-carlos-pereira" target="_blank" rel="noreferrer">
-                    <i class="fab fa-linkedin"></i>
+                <a href="https:www.linkedin.com/in/luis-carlos-pereira" target="_blank" rel="noreferrer">
+                    <i class="social-networking fab fa-linkedin"></i>
                 </a>
             </div>
             <div class="col-12">
@@ -19,6 +21,6 @@ export default function Footer(props) {
                     Copyright 2023 - All rights reserved.
                 </p>
             </div>
-        </div>
+        </footer>
     )
 }

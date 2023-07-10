@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
-import Header from './pages/Header';
+import Header from './components/Header';
 import About from './pages/About';
 import Qualification from './pages/Qualification.jsx';
 import Projects from './pages/Projects';
-import Footer from './pages/Footer';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

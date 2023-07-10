@@ -7,14 +7,12 @@ import './Qualification.css'
 export default function Qualification(props) {
     return (
         <div className="container">
-            <div className="row align-items-center formacao mt-5 p-5">
-                <div className="col">
-                    <hr />
-                    <Item logo={Puc} alt='Logo da Puc-Goiás' instituicao='Pontifícia Universidade Católica de Goiás' curso='Ciência da Computação' ano='2019' />
-                    <Item logo={Unopar} alt='Logo da Unopar' instituicao='Pontifícia Universidade Católica de Goiás' curso='Pós Graduação em Desenvolvimento Web FullStack' ano='2022' />
-                    <Item logo={Descomplica} alt='Logo da Descomplica' instituicao='Descomplica' curso='Ciência da Computação' ano='2022' />
-                    <Item logo={Descomplica} alt='Logo da Descomplica' instituicao='Descomplica' curso='Ciência da Computação' ano='2023' />
-                </div>
+            <div className="row align-items-center formacao">
+                <hr className='hr-recuo'/>
+                <Item logo={Puc} alt='Logo da Puc-Goiás' instituicao='Pontifícia Universidade Católica de Goiás' curso='Ciência da Computação' ano='2019' />
+                <Item logo={Unopar} alt='Logo da Unopar' instituicao='Pontifícia Universidade Católica de Goiás' curso='Pós Graduação em Desenvolvimento Web FullStack' ano='2022' />
+                <Item logo={Descomplica} alt='Logo da Descomplica' instituicao='Descomplica' curso='Ciência da Computação' ano='2022' />
+                <Item logo={Descomplica} alt='Logo da Descomplica' instituicao='Descomplica' curso='Ciência da Computação' ano='2023' />
             </div>
         </div>
     )

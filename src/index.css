@@ -14,14 +14,6 @@ a:hover {
 body {
   box-sizing: border-box;
   margin: 0;
-  padding: 0 80px;
-  height: 100vh;
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "foot";
-  grid-template-rows: 100px 1fr 70px;
   font-family: 'Poppins';
   color: white;
   background-color: rgb(39, 39, 39);
@@ -139,6 +131,10 @@ body {
 
   .navbar > .container {
     justify-content: center;
+  }
+
+  .hidden {
+    display: none;
   }
 
   div>a i {
