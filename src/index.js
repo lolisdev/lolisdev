@@ -8,17 +8,22 @@ import Qualification from './pages/Qualification.jsx';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
 import Body from './components/Body';
+import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
+import theme from './theme'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Body>
-      <Header />
-      <About />
-      <Qualification />
-      <Projects />
-      <Footer />
-    </Body>
+    <ChakraProvider>
+      <Body>
+        
+        <Header />
+        <About />
+        <Qualification />
+        <Projects />
+        <Footer />
+      </Body>
+    </ChakraProvider>
   </React.StrictMode>
 );
 

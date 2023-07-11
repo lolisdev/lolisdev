@@ -2,7 +2,7 @@ import './Body.css'
 
 export default function Footer(props) {
     return (
-        <div className='light-mode'>
+        <div>
             {props.children}
         </div>
     )

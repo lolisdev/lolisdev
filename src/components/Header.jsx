@@ -1,4 +1,6 @@
 import './Header.css';
+import { useColorMode, useColorModeValue, Box } from '@chakra-ui/react'
+
 
 export default function Header() {
   return (
@@ -8,7 +10,7 @@ export default function Header() {
           <a href="https://lolisdev.github.io" className="navbar-brand d-flex align-items-center">
             <i className="fa-solid fa-code showweb"></i>
             <i className="fa-solid fa-code showmobile"></i>
-            <span className='light-mode'>Luis Carlos</span>
+            <span>Luis Carlos</span>
           </a>
           <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
             aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,9 +26,7 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          {/* <button className='btn text-dark' onClick={() => {
-            alert("Aqui ainda tá em construção, mas por enquanto fica como um Easter Egg!")
-          }}>
+          {/* <button className='btn text-dark' onClick={alert("oi")}>
             <i class="bi bi-brightness-high-fill"></i>
           </button> */}
         </div>
