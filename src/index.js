@@ -1,21 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import './index.css';
+import './components/Body.css';
 import Header from './components/Header';
 import About from './pages/About';
 import Qualification from './pages/Qualification.jsx';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
+import Body from './components/Body';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <About />
-    <Qualification />
-    <Projects />
-    <Footer />
+    <Body>
+      <Header />
+      <About />
+      <Qualification />
+      <Projects />
+      <Footer />
+    </Body>
   </React.StrictMode>
 );
 

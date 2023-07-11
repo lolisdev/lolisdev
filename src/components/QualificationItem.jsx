@@ -5,7 +5,7 @@ export default function Item(props) {
         <>
             <div className="row hover">
                 <div className="col-4 d-flex justify-content-end" id="col-puc">
-                    <img className="logo" src={props.logo} alt={props.alt} />
+                    <img className="logo-qualification" src={props.logo} alt={props.alt} />
                 </div>
                 <div className="col">
                     <p>

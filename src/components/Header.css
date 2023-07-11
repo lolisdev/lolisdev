@@ -1,16 +1,18 @@
 nav {
   font-family: 'Poppins';
   color: white;
-  background-color: rgb(39, 39, 39);
 }
 
 header {
-  background-color: rgb(3, 63, 80);
   grid-area: header;
   left: 0;
   display: flex;
   position: fixed;
   width: 100%;
+}
+
+.bi-brightness-high-fill {
+  font-size: 1.1rem;
 }
 
 nav>div>a {
@@ -37,10 +39,4 @@ nav>div>div {
 
 .imgcinza{
   filter:grayscale(1);
-}
-
-.logo {
-  width: 100px;
-  height: auto;
-  object-fit: cover;
 }
