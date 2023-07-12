@@ -4,6 +4,7 @@
 
 .hr-recuo {
   margin: 4px 4px;
+  width: 80%;
 }
 
 .formacao {
@@ -39,7 +40,7 @@
   }  
 
   .logo-qualification {
-    width: 80px;
+    width: 90px;
     height: auto;
     object-fit: contain;
   }

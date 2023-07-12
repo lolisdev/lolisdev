@@ -12,7 +12,7 @@ export default function Curso(props) {
                                 <span className="text-white">DEVELOPER</span></p>
                         </div>
                         <div className="col-12 showmobile">
-                            <p className="text-center pt-3">
+                            <p className="text-center pt-3 d-flex justify-content-center">
                                 <img src={Perfil} alt='Imagem de Perfil' className="w-75 rounded-circle p-2 imgcinza" />
                             </p>
                         </div>
