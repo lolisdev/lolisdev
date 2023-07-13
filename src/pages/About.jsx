@@ -1,6 +1,7 @@
 import './About.css';
 import Perfil from '../assets/perfil3.jpg'
 
+
 export default function Curso(props) {
     return (
         <div className="container">

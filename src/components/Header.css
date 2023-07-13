@@ -4,11 +4,15 @@ nav {
 }
 
 header {
-  grid-area: header;
   left: 0;
   display: flex;
   position: fixed;
   width: 100%;
+  z-index: 1;
+}
+
+.fixed-top{
+  background-color: var(--chakra-colors-chakra-body-bg)
 }
 
 .bi-brightness-high-fill {

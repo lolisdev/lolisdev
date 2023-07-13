@@ -1,22 +1,20 @@
+// import './components/Body.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import './components/Body.css';
 import Header from './components/Header';
 import About from './pages/About';
 import Qualification from './pages/Qualification.jsx';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
 import Body from './components/Body';
-import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
-import theme from './theme'
+import { ChakraProvider } from '@chakra-ui/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ChakraProvider>
       <Body>
-        
         <Header />
         <About />
         <Qualification />

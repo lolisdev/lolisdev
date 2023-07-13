@@ -1,11 +1,9 @@
 import './Header.css';
-import { useColorMode, useColorModeValue, Box } from '@chakra-ui/react'
-
 
 export default function Header() {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-expand-md fixed-top bg-primary-color" id="navbar">
+      <nav className="navbar navbar-expand-lg navbar-expand-md fixed-top" id="navbar">
         <div className="container">
           <a href="https://lolisdev.github.io" className="navbar-brand d-flex align-items-center">
             <i className="fa-solid fa-code showweb"></i>
