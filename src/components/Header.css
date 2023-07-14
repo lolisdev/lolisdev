@@ -11,7 +11,13 @@ header {
   z-index: 1;
 }
 
-.fixed-top{
+line {
+  stroke-width: 40px;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+.fixed-top {
   background-color: var(--chakra-colors-chakra-body-bg)
 }
 
@@ -32,15 +38,15 @@ nav>div>div {
   list-style-type: none;
 }
 
-.nav-item{
+.nav-item {
   display: flex;
 }
 
-.nav-item a{
+.nav-item a {
   display: flex;
   justify-content: center;
 }
 
-.imgcinza{
-  filter:grayscale(1);
+.imgcinza {
+  filter: grayscale(1);
 }

@@ -1,13 +1,86 @@
 import './Header.css';
+import { motion } from "framer-motion";
+
+const draw = {
+  hidden: { pathLength: 0, opacity: 0 },
+  visible: (i) => {
+    const delay = 1 + i * 0.5;
+    return {
+      pathLength: 1,
+      opacity: 1,
+      transition: {
+        pathLength: { delay, type: "spring", duration: 1.5, bounce: 0 },
+        opacity: { delay, duration: 0.01 }
+      }
+    };
+  }
+};
 
 export default function Header() {
+
+  const stroke = '#FFF'
+
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-expand-md fixed-top" id="navbar">
         <div className="container">
           <a href="https://lolisdev.github.io" className="navbar-brand d-flex align-items-center">
-            <i className="fa-solid fa-code showweb"></i>
-            <i className="fa-solid fa-code showmobile"></i>
+            <motion.svg
+              width="100"
+              height="50"
+              viewBox="400 0 500 300"
+              initial="hidden"
+              animate="visible"
+            >
+              <motion.line
+                x1="490"
+                x2="400"
+                y1="90"
+                y2="170"
+                stroke={stroke}
+                variants={draw}
+                custom={1}
+              />
+              <motion.line
+                x1="490"
+                x2="400"
+                y1="230"
+                y2="170"
+                stroke={stroke}
+                variants={draw}
+                custom={1}
+              />
+
+              <motion.line
+                x1="550"
+                x2="610"
+                y1="270"
+                y2="18"
+                stroke={stroke}
+                variants={draw}
+                custom={1}
+              />
+
+              <motion.line
+                x1="660"
+                x2="750"
+                y1="70"
+                y2="150"
+                stroke={stroke}
+                variants={draw}
+                custom={1}
+              />
+              <motion.line
+                x1="660"
+                x2="750"
+                y1="210"
+                y2="150"
+                stroke={stroke}
+                variants={draw}
+                custom={1}
+              />
+            </motion.svg>
+            {/* <i className="fa-solid fa-code showmobile"></i> */}
             <span>Luis Carlos</span>
           </a>
           <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
