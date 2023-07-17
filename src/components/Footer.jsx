@@ -2,7 +2,7 @@ import './Footer.css'
 
 export default function Footer(props) {
     return (
-        <footer class="row mt-3 text-white align-self-end justify-content-center d-flex p-0 m-0">
+        <footer class="row mt-3 text-white align-self-end justify-content-center d-flex p-0 m-0" id="contact">
             <div class="col-6 text-end">
                 <a href="http:github.com/lolisdev" target="_blank" rel="noreferrer">
                     <i class="social-networking fab fa-github"></i>

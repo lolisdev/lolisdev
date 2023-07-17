@@ -7,6 +7,10 @@
   width: 80%;
 }
 
+#qualification {
+  padding-top: 80px;
+}
+
 .formacao {
     display: flex;
     justify-content: center;

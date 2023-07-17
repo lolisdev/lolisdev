@@ -8,7 +8,7 @@ import ProjectItem from '../components/ProjectItem'
 
 export default function Projects(props) {
     return (
-        <div className="container">
+        <div className="container" id="projects">
             <div className="row projetos">
                 <div className="col align-self-center">
                     <div className="cards">

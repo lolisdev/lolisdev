@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const draw = {
   hidden: { pathLength: 0, opacity: 0 },
   visible: (i) => {
-    const delay = 1 + i * 0.5;
+    const delay = i * 0.5;
     return {
       pathLength: 1,
       opacity: 1,
@@ -90,10 +90,10 @@ export default function Header() {
           <div className="collapse navbar-collapse justify-content-end" id="navbar-items">
             <ul className="navbar-nav mb-lg-0">
               <li className="nav-item mx-auto gap-5 gap-md-3 gap-lg-5">
-                <a href="#quemsoueu" className="nav-link active text-white montserrat" aria-current="page">Quem sou eu</a>
-                <a href="#formacao" className="nav-link active text-white montserrat">Formação</a>
-                <a href="#projetos" className="nav-link active text-white montserrat">Projetos</a>
-                <a href="#contato" className="nav-link active text-white montserrat">Contato</a>
+                <a href="#about" className="nav-link active text-white montserrat" aria-current="page">Quem sou eu</a>
+                <a href="#qualification" className="nav-link active text-white montserrat">Formação</a>
+                <a href="#projects" className="nav-link active text-white montserrat">Projetos</a>
+                <a href="#contact" className="nav-link active text-white montserrat">Contato</a>
               </li>
             </ul>
           </div>
